@@ -1,3 +1,4 @@
+/*.................. simple number pattern.......................................*/
 #include<stdio.h>
 int main()
 {
@@ -14,7 +15,7 @@ int main()
 }
 return 0;
 }
-/*.................. simple number pattern.......................................*/
+/*......................... largest of three number................................*/
 #include<stdio.h>
 int main()
 {
