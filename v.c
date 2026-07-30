@@ -1,4 +1,4 @@
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
     int i,j,n;
@@ -13,8 +13,9 @@ int main()
     printf("\n");
 }
 return 0;
-}*/
-/*#include<stdio.h>
+}
+/*.................. simple number pattern.......................................*/
+#include<stdio.h>
 int main()
 {
     int a,b,c;
@@ -27,8 +28,9 @@ int main()
     else
     printf("largest=%d",c);
     return 0;
-    }*/
-   /*#include <stdio.h>
+    }
+/*................duplicate elements.............................*/
+#include <stdio.h>
 
 int main() {
     int n, i, j;
@@ -54,8 +56,9 @@ int main() {
     }
 
     return 0;
-}*/
-/*#include <stdio.h>
+}
+/*................ linear search.............................*/
+#include <stdio.h>
 
 int main()
 {
@@ -90,49 +93,19 @@ int main()
         printf("Element not found");
 
     return 0;
-}*/
+}
+/*...............2D arrays matric input.................................*/
 #include<stdio.h>
 int main()
 {
-    int stack[100];
-    int top=-1;
-    int choice,item;
-    while(1)
+    int row, col;
+    scanf("%d",&row,&col;
+    int matrix[row][col]);
+    for(int i=0;i<row;i++)
     {
-        printf("\n1.Push\n2.Pop\n3.Size\n4.print\n5.Exit\n");
-        scanf("%d",&choice);
-        switch(choice)
+        for(int j=0;j<col;j++)
         {
-            case 1:
-            printf("enter element:");
-            scanf("%d",&item);
-            top++
-            stack[top]=item;
-            break;
-           case 2:
-            if(top== -1)
-            printf("stack is empty\n");
-            else top--;
-            break;
-           case 3:
-           printf("size=%d\n",top+1);
-           break;
-           case 4:
-           if(top==-1)
-           printf("Stacknis Empty\n");
-           else
-           {
-           printf("stack:");
-           for(int i=0;i<=top;i++)
-           printf("%d",stack[i]);
-           printf("\n");
-
-}
-break;
-case 5:
-return 0;
-default:
-printf("invalid choice");
-}
-}
+            scanf("%d,&matrix[i][j]")
+        }
+    }
 }
